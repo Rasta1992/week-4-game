@@ -1,0 +1,95 @@
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+  <title>Crystal Collector</title>
+
+  <!--reset stylesheet-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!--bootstrap-cdn-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!--custom-stylesheet-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!--jquery-link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <!--Heading-->
+  <div class="jumbotron">
+    <h1> Crystal Collector </h1>
+  </div>
+
+  <!--first container-->
+  <div class="container">
+    <div class="row">
+      <div id="info" class="col-md-8">
+       <div id="info" class="panel panel-default">
+         <div class="panel-heading">
+          <h3 class="panel-title">Instructions</h3>
+        </div>
+        <div class="panel-body">
+          <p>
+            You will be given a random number at the start of the game.
+          </p>
+          There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+          <p>
+            You win the game by matching your total score to the random number, you lose the game if you total score goes over the random number.
+          </p>
+          <p>
+            Everytime the game starts the game will change the value of the crystals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1">
+  </div>
+  <div class="col-md-6">
+
+
+    <div class="row">
+      <div class="col-md-4 info">
+        <h4 id="target-number">Target: </h4>
+        <h4 id="total-score">Your Total: </h4>
+        <h4 id="wins">Wins: </h4>
+        <h4 id="losses">losses: </h4>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-4 win-lose-counter">
+      </div>
+    </div>
+
+    <!--Images-->
+    <div class="row">
+      <div class="col-md-12 crystal-image1">
+       <img id="rock1" src="assets/images/crystal1.jpg" height="150" width="150">
+       <img id="rock2" src="assets/images/crystal2.jpeg" height="150" width="150">
+       <img id="rock3" src="assets/images/crystal3.jpg" height="150" width="150">
+       <img id="rock4" src="assets/images/crystal4.jpg" height="150" width="150">
+     </div>
+   </div>
+   <div class="row">
+    <div class="col-md-4 total-score">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 score-number">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+	background-color: black;
+}
+h4 {
+	color: green;
+}
+.jumbotron {
+	background-color: purple;
+	color: black;
+}
+.panel{
+	background-color: orange;
+}
